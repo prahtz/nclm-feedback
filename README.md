@@ -7,6 +7,10 @@ apt-get install espeak-ng
 
 pip install -r requirements.txt
 
+# k2
+# find the right version in https://huggingface.co/csukuangfj/k2
+pip install https://huggingface.co/csukuangfj/k2/resolve/main/cpu/k2-1.24.4.dev20231220+cpu.torch2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+
 # icefall
 git clone https://github.com/k2-fsa/icefall
 cd icefall
